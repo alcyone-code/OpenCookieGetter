@@ -1,0 +1,24 @@
+{
+	"manifest_version": 3,
+	"name": "Open Cookie Getter",
+	"version": "0.0.0.1",
+	"description": "Extension for download netscape format",
+	"author": "Alcyone",
+	"action": {
+		"default_popup": "popup.html",
+		"default_title": "COOKIES",
+		"default_icon": "img/icon_64.png"
+	},
+	"permissions": [
+		"cookies",
+		"scripting",
+		"storage",
+		"tabs",
+		"activeTab"
+	],
+	"host_permissions": [
+		"https://*/*",
+		"http://*/*",
+		"<all_urls>"
+	]
+}
